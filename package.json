@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve remote && ng serve shell --port 4201",
+    "start": "ng serve remote && ng serve shell",
+    "start:remote": "ng serve remote",
+    "start:shell": "ng serve shell",
     "build": "ng build remote && ng build shell",
     "build:remote": "ng build remote",
     "build:shell": "ng build shell",

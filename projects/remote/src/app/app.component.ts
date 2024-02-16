@@ -9,5 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'remote';
+  static readonly ID = Symbol('REMOTE_APP_COMPONENT')
 }
